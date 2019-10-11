@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+	<ViewDefinitions>
+		<View>
+			<Name>SNMPObject</Name>
+			<ViewSelectedBy>
+				<TypeName>SNMPObject</TypeName>
+			</ViewSelectedBy>
+			<TableControl>
+				<TableHeaders>
+					<TableColumnHeader>
+						<Label>OID</Label>
+						<Alignment>left</Alignment>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>Data</Label>
+						<Alignment>left</Alignment>
+					</TableColumnHeader>
+				</TableHeaders>
+				<TableRowEntries>
+					<TableRowEntry>
+						<TableColumnItems>
+							<TableColumnItem>
+								<PropertyName>OID</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Data</PropertyName>
+							</TableColumnItem>
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+	</ViewDefinitions>
+</Configuration>
