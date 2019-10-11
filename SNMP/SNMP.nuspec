@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SNMP</id>
+    <version>__VERSION__</version>
+    <authors>Ben McElroy</authors>
+    <owners>InfraEng</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows polling over SNMP</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>SAN SANSwitch tools</tags>
+  </metadata>
+</package>
